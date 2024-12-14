@@ -1,0 +1,119 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hola", "que tal", "buenos dias", "buenas tardes"],
+      "responses": ["Hola, ¿cómo puedo ayudarte?", "¡Hola! ¿En qué puedo asistirte hoy?"]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": ["gracias", "muchas gracias", "te agradezco", "muy amable"],
+      "responses": ["¡Gracias por elegirnos para tus necesidades tecnológicas!", "Estamos aquí para ayudarte con cualquier requerimiento tecnológico"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["adiós", "hasta la próxima", "nos vemos luego", "bye", "hasta luego"],
+      "responses": ["¡Cuídate! Nos vemos pronto para más soporte técnico", "Hasta la próxima, seguimos disponibles para cualquier consulta"]
+    },
+    {
+      "tag": "calidad_servicio",
+      "patterns": ["¿Cómo es la calidad?", "¿Ofrecen buen servicio?", "calidad del trabajo", "¿Es confiable?"],
+      "responses": ["Nos especializamos en ofrecer soluciones tecnológicas confiables y de alta calidad", "Garantizamos un servicio de calidad respaldado por nuestros expertos en tecnología"]
+    },
+    {
+      "tag": "tiempo_espera",
+      "patterns": ["¿Cuánto tardan?", "tiempo promedio de espera", "¿es rápido el servicio?", "¿tardan mucho?"],
+      "responses": ["El tiempo depende del trabajo, pero siempre buscamos ser eficientes", "Nuestros tiempos de espera son rápidos sin comprometer la calidad"]
+    },
+    {
+      "tag": "costos_trabajo",
+      "patterns": ["¿Cuánto cuesta?", "precio del servicio", "¿es caro?", "¿qué precio tienen?"],
+      "responses": ["Nuestros servicios comienzan desde $500 y varían según la complejidad del trabajo", "Ofrecemos precios competitivos desde $500 para mantenimiento, reparaciones y desarrollo de software"]
+    },
+    {
+      "tag": "informacion_general",
+      "patterns": ["cuéntame más", "dame información", "detalles del servicio", "¿qué hacen?"],
+      "responses": ["Realizamos mantenimiento y reparación de computadoras, desarrollo de páginas web y software personalizado", "Nuestros servicios abarcan desde soporte técnico hasta soluciones de software avanzadas"]
+    },
+    {
+      "tag": "ofertas",
+      "patterns": ["¿tienen ofertas?", "promociones disponibles", "descuentos actuales", "¿hay descuentos?"],
+      "responses": ["Este mes ofrecemos descuentos en mantenimiento preventivo de computadoras", "Revisa nuestras promociones en desarrollo web y soporte técnico"]
+    },
+    {
+      "tag": "horarios",
+      "patterns": ["¿Cuáles son sus horarios?", "horarios de atención", "¿a qué hora abren?", "¿hasta qué hora trabajan?"],
+      "responses": ["Atendemos de lunes a viernes de 9 a.m. a 6 p.m.", "Nuestros horarios son flexibles para ajustarnos a tus necesidades"]
+    },
+    {
+      "tag": "contacto",
+      "patterns": ["¿Cómo los contacto?", "número de teléfono", "correo electrónico", "contacto directo"],
+      "responses": ["Puedes llamarnos al (123) 456-7890 o escribirnos a caatech2@gmail.com Estamos disponibles en nuestro chat en línea para consultas inmediatas"]
+    },
+    {
+      "tag": "tiempos_entrega",
+      "patterns": ["¿cuándo lo entregan?", "tiempo de entrega", "¿es rápido?", "¿cuánto se tarda?"],
+      "responses": ["El tiempo de entrega depende del servicio: reparaciones menores en 1-2 días y proyectos de software según lo acordado", "Trabajamos para cumplir los plazos sin comprometer la calidad"]
+    },
+    {
+      "tag": "garantia",
+      "patterns": ["¿tiene garantía?", "garantizan el trabajo?", "¿y si algo falla?", "¿hay soporte postventa?"],
+      "responses": ["Sí, ofrecemos garantía en todas nuestras reparaciones y desarrollos de software", "Respaldamos nuestro trabajo con garantía para tu tranquilidad"]
+    },
+    {
+      "tag": "personalizacion",
+      "patterns": ["¿personalizan los servicios?", "quiero algo único", "trabajo personalizado", "¿pueden hacerlo a medida?"],
+      "responses": ["Ofrecemos páginas web y software completamente personalizados", "Cada solución es diseñada según las necesidades específicas de nuestros clientes"]
+    },
+    {
+      "tag": "urgencia",
+      "patterns": ["¿hacen trabajos urgentes?", "necesito algo rápido", "¿pueden entregarlo hoy?", "es urgente"],
+      "responses": ["Podemos realizar servicios urgentes con un costo adicional", "Si tienes una emergencia, contáctanos para priorizar tu solicitud"]
+    },
+    {
+      "tag": "metodos_pago",
+      "patterns": ["¿cómo puedo pagar?", "métodos de pago disponibles", "¿aceptan tarjetas?", "formas de pago"],
+      "responses": ["Aceptamos pagos con tarjetas, transferencias bancarias y efectivo", "Puedes elegir el método de pago que más te convenga"]
+    },
+    {
+      "tag": "ubicacion",
+      "patterns": ["¿dónde están?", "ubicación física", "dirección", "¿tienen oficinas?"],
+      "responses": ["Nos ubicamos en el centro tecnológico de la ciudad", "Consulta nuestra dirección en el mapa de nuestra página web"]
+    },
+    {
+      "tag": "experiencia",
+      "patterns": ["¿tienen experiencia?", "años en el mercado", "¿son confiables?", "¿cuánto tiempo llevan?"],
+      "responses": ["Contamos con más de 10 años en el sector tecnológico", "Nuestra experiencia respalda la calidad de nuestros servicios"]
+    },
+    {
+      "tag": "quejas",
+      "patterns": ["quiero quejarme", "tengo un problema", "no estoy satisfecho", "reclamos"],
+      "responses": ["Lamentamos el inconveniente, por favor contáctanos para solucionarlo", "Estamos aquí para resolver cualquier problema que tengas"]
+    },
+    {
+      "tag": "recomendaciones",
+      "patterns": ["¿qué recomiendan?", "sugerencias", "¿qué me ofrecen?", "¿qué debería hacer?"],
+      "responses": ["Recomendamos mantenimiento preventivo trimestral para computadoras", "Consulta nuestras opciones de desarrollo web para optimizar tu negocio"]
+    },
+    {
+      "tag": "novedades",
+      "patterns": ["¿qué hay de nuevo?", "últimas actualizaciones", "novedades recientes", "¿qué ofrecen ahora?"],
+      "responses": ["¡Hemos lanzado un nuevo servicio de soporte remoto!", "Explora nuestras últimas soluciones de software en nuestra página"]
+    },
+    {
+      "tag": "plazos_largos",
+      "patterns": ["¿puedo pedir plazos largos?", "¿trabajan con proyectos extensos?", "necesito algo a largo plazo", "¿pueden adaptarse a plazos largos?"],
+      "responses": ["Sí, trabajamos en proyectos tecnológicos de largo plazo", "Podemos adaptarnos a tus tiempos y requerimientos específicos"]
+    },
+    {
+      "tag": "consultas_generales",
+      "patterns": ["tengo una consulta", "quiero saber más", "¿me pueden informar?", "dudas generales"],
+      "responses": ["Estamos aquí para resolver tus dudas sobre tecnología", "Contáctanos y te ayudaremos con cualquier consulta tecnológica"]
+    },
+    {
+      "tag": "tipos_trabajo",
+      "patterns": ["¿qué trabajos hacen?", "tipos de servicios", "¿en qué pueden ayudarme?", "¿qué hacen exactamente?"],
+      "responses": ["Ofrecemos mantenimiento y reparación de computadoras, desarrollo de páginas web y creación de software personalizado", "Nuestros servicios incluyen soporte técnico, instalación de software y soluciones a medida"]
+    }
+  ]
+}
